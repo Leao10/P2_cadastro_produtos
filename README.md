@@ -1,5 +1,7 @@
 # API de Cadastro de Produtos
 
+## Detalhe: Inicia usando "uvicorn src.main:app --reload". Funcionando apenas usando Postman.
+
 ## Descrição
 
 Esta API é destinada ao cadastro e gerenciamento de produtos. 
@@ -7,7 +9,6 @@ Esta API é destinada ao cadastro e gerenciamento de produtos.
 A estrutura inicial, incluindo a modelagem, os DTOs, autenticação e logs, já está pronta. 
 
 Os alunos serão responsáveis por implementar os services e anotar os controllers para completar a funcionalidade da API.
-
 
 ## Tarefas dos Alunos
 
