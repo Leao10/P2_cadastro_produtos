@@ -11,7 +11,7 @@ from src.repository.usuario_repository import ProductRepository
 class ProductService:
 
     def __init__(self, repository: ProductRepository):
-        self.repository = repository
+        self.usuario_repository = repository
 
     def create(self, data: ProdutoCreateDTO) -> ProdutoDTO:
         logging.info('Criando um novo produto')
